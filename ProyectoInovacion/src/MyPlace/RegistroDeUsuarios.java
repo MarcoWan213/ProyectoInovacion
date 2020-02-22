@@ -59,14 +59,6 @@ public class RegistroDeUsuarios extends JFrame {
         Container contenedor = getContentPane();
         contenedor.add (PanelLlenado);
         
-        setVisible(true);
-    }
-
-    
-
-
-
-   public static void main(String[] args) {
-        RegistroDeUsuarios nuevo = new RegistroDeUsuarios("Cuenta nueva");
-    } 
+        setVisible(false);
+    }     
 }

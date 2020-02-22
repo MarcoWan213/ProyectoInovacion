@@ -29,7 +29,7 @@ public class SplashDemo extends JFrame implements ActionListener {
         MenuBar mb = new MenuBar();
         setMenuBar(mb);
         mb.add(m1);
-        String MyPlace.splash="/MyPlace.splash/splash.gif";
+        /*String MyPlace.splash="/MyPlace.splash/splash.gif";
         final SplashScreen splash = SplashScreen.getSplashScreen(MyPlace.splash);
         if (splash == null) {
             System.out.println("SplashScreen.getSplashScreen() returned null");
@@ -48,7 +48,7 @@ public class SplashDemo extends JFrame implements ActionListener {
             } catch (InterruptedException e) {
             }
         }
-        splash.close();
+        splash.close();*/
         setVisible(true);
         toFront();
 
