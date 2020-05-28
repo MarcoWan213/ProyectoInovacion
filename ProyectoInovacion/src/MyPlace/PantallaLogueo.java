@@ -20,7 +20,7 @@ public class PantallaLogueo extends JFrame {
 
         lbContracena = new JLabel("Contraceña: ");
         lbUsuario = new JLabel("Usuario: ");
-        lbnombreMyPlace = new JLabel("MY PLACE");
+        lbnombreMyPlace = new JLabel("A SUS ORDENES");
         txtContacena = new JTextField("********");
         txtUsuario = new JTextField("Nombre de usuario o correo");
         btnEntrar = new JButton("Entrar");
@@ -69,7 +69,7 @@ public class PantallaLogueo extends JFrame {
             @Override
             public void actionPerformed(ActionEvent ae) {
                 String texto = "El usuario " + txtUsuario.getText() + " a iniciado sesion correctamente a la escuela "
-                        + ""+ lista.getSelectedItem();
+                        + "" + lista.getSelectedItem();
                 JOptionPane.showMessageDialog(null, texto);
             }
         });
@@ -83,7 +83,7 @@ public class PantallaLogueo extends JFrame {
 
         pBotones.add(btnRegistrarce);
         pBotones.add(btnEntrar);
-        pBotones.add(lista);
+        //pBotones.add(lista);
 
         pBoton.add(btnOlvideContra);
 
